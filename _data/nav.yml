@@ -1,0 +1,6 @@
+- name: Konular
+  link: /posts/
+- name: Kategoriler
+  link: /categories/
+# - name: About & Contact
+#   link: /
