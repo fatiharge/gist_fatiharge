@@ -4,44 +4,44 @@ author: Halil Ibrahim Bayla
 title: BİZE NE OLMUŞSA SENDEN OLMUŞ
 ---
 
-Güneş seni kıskanmış, aya bırakmış rengini  
-Ay seni görmüş, kıskanmış  
-Sabaha bırakmış dengini  
-Unutma sevgilim, bu döngü senin renginden  
+Güneş seni kıskanmış, aya bırakmış rengini  <br>
+Ay seni görmüş, kıskanmış  <br>
+Sabaha bırakmış dengini  <br>
+Unutma sevgilim, bu döngü senin renginden  <br><br>
 
-Ben nasıl itiraf edeyim, ismini  
-Kıtalar sana küsmüş, ayrılmış  
-Sokaklar sana bakmış, aydınlanmış  
-Kuşlar sabaha kadar seni anlatır  
+Ben nasıl itiraf edeyim, ismini  <br>
+Kıtalar sana küsmüş, ayrılmış  <br>
+Sokaklar sana bakmış, aydınlanmış  <br>
+Kuşlar sabaha kadar seni anlatır  <br><br>
 
-Kainat kokuna hasret kalmış  
-Ben nasıl anayım, ismini  
-Kalemler yalnızca seni yazmış  
-Şairler kara gözlerine yazmış şiirilerini  
+Kainat kokuna hasret kalmış  <br>
+Ben nasıl anayım, ismini  <br>
+Kalemler yalnızca seni yazmış  <br>
+Şairler kara gözlerine yazmış şiirilerini  <br><br>
 
-Dünyanın tüm çiçekleri sana açmış kalbini  
-Ressamlar sana bakıp çizmiş o muntazam eserlerini  
-Rüzgarlar sana doğru esmiş  
-Keşifler senden sebep yapılabilmiş  
+Dünyanın tüm çiçekleri sana açmış kalbini  <br>
+Ressamlar sana bakıp çizmiş o muntazam eserlerini  <br>
+Rüzgarlar sana doğru esmiş  <br>
+Keşifler senden sebep yapılabilmiş  <br><br>
 
-Amerika senin yüzünden keşfedilmiş  
-Güzelliğini kıskanıp devrim yapmış tüm yoldaşlar  
-İnsan seni kıskanıp doğurmuş  
-Büyük Sinan, sana yapmış tüm eserlerini  
+Amerika senin yüzünden keşfedilmiş  <br>
+Güzelliğini kıskanıp devrim yapmış tüm yoldaşlar  <br>
+İnsan seni kıskanıp doğurmuş  <br>
+Büyük Sinan, sana yapmış tüm eserlerini  <br><br>
 
-Fatih senin için almış İstanbul’u  
-Kanuni yoluna sermiş Avrupa’yı  
-Bizim mahalledeki mecnun İbrahim var ya  
-Sana dalıp delirmiş, unutmuş ismini  
+Fatih senin için almış İstanbul’u  <br>
+Kanuni yoluna sermiş Avrupa’yı  <br>
+Bizim mahalledeki mecnun İbrahim var ya  <br>
+Sana dalıp delirmiş, unutmuş ismini  <br><br>
 
-Merak etmeyesin mecnun diyince bakar olmuş  
-Yusuf mısıra sultan olmuş  
-İbrahim Nemrut’a düşman olmuş  
-Ey sevgili bu dünyada ne olmuşsa,  
+Merak etmeyesin mecnun diyince bakar olmuş  <br>
+Yusuf mısıra sultan olmuş  <br>
+İbrahim Nemrut’a düşman olmuş  <br>
+Ey sevgili bu dünyada ne olmuşsa,  <br><br>
 
-Ya güzelliğin ilham olmuş  
-Ya kokun ilaç olmuş  
-Sevgili  
-Bize ne olmuşsa senden olmuş  
+Ya güzelliğin ilham olmuş  <br>
+Ya kokun ilaç olmuş  <br>
+Sevgili  <br>
+Bize ne olmuşsa senden olmuş  <br><br>
 
 2023
