@@ -8,4 +8,4 @@ Gist.FatihArge.com, temel olarak bilgilendirici içerikleri hızlıca hatırlat�
 
 > **İletişim:** fatih@fatiharge.com
 
-5
+6
