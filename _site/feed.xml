@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-02T19:02:46+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FatihargeGist</title><subtitle>A platform for sharing small yet impactful notes that inspire creativity.</subtitle><author><name>fatiharge</name></author><entry><title type="html">Flutter ile Basit Sayfalandırma Oluşturma</title><link href="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html" rel="alternate" type="text/html" title="Flutter ile Basit Sayfalandırma Oluşturma" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Flutter%20ile%20Basit%20Sayfaland%C4%B1rma%20Olu%C5%9Fturma</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html"><![CDATA[<h1 id="flutter-ile-basit-sayfalandırma-oluşturma">Flutter ile Basit Sayfalandırma Oluşturma</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-02T19:08:00+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FatihargeGist</title><subtitle>A platform for sharing small yet impactful notes that inspire creativity.</subtitle><author><name>fatiharge</name></author><entry><title type="html">Flutter ile Basit Sayfalandırma Oluşturma</title><link href="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html" rel="alternate" type="text/html" title="Flutter ile Basit Sayfalandırma Oluşturma" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Flutter%20ile%20Basit%20Sayfaland%C4%B1rma%20Olu%C5%9Fturma</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html"><![CDATA[<h1 id="flutter-ile-basit-sayfalandırma-oluşturma">Flutter ile Basit Sayfalandırma Oluşturma</h1>
 
 <h3 id="sayfalandırmanın-temelleri">Sayfalandırmanın Temelleri</h3>
 
@@ -148,4 +148,16 @@ Ya kokun ilaç olmuş<br />
 Sevgili<br />
 Bize ne olmuşsa senden olmuş</p>
 
-<p>2023</p>]]></content><author><name>Halil Ibrahim Bayla</name></author><category term="siirler" /><summary type="html"><![CDATA[Güneş seni kıskanmış, aya bırakmış rengini Ay seni görmüş, kıskanmış Sabaha bırakmış dengini Unutma sevgilim, bu döngü senin renginden]]></summary></entry></feed>
+<p>2023</p>]]></content><author><name>Halil Ibrahim Bayla</name></author><category term="siirler" /><summary type="html"><![CDATA[Güneş seni kıskanmış, aya bırakmış rengini Ay seni görmüş, kıskanmış Sabaha bırakmış dengini Unutma sevgilim, bu döngü senin renginden]]></summary></entry><entry><title type="html">SİZLER VE BİZLER</title><link href="http://localhost:4000/siirler/2024/11/02/S%C4%B0ZLER-VE-B%C4%B0ZLER.html" rel="alternate" type="text/html" title="SİZLER VE BİZLER" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/siirler/2024/11/02/S%C4%B0ZLER%20VE%20B%C4%B0ZLER</id><content type="html" xml:base="http://localhost:4000/siirler/2024/11/02/S%C4%B0ZLER-VE-B%C4%B0ZLER.html"><![CDATA[<p>Sizler saraylarda çocuklarınızı büyütün<br />
+Bizler umutlarımızı mahşere gömeli çok oldu
+<br /><br />
+Sizler kemanınız ile neşenizi daim eyleyin<br />
+Bizler üç telliye elimizi vuralı çok oldu
+<br /><br />
+Sizler şöminenize odun atın<br />
+Bizler canımızı yakalı çok oldu
+<br /><br />
+Çok oldu sizden, biz ayrılalı<br />
+Çok oldu bizler garip kalalı<br /><br /></p>
+
+<p>2021</p>]]></content><author><name>Halil Ibrahim Bayla</name></author><category term="siirler" /><summary type="html"><![CDATA[Sizler saraylarda çocuklarınızı büyütün Bizler umutlarımızı mahşere gömeli çok oldu Sizler kemanınız ile neşenizi daim eyleyin Bizler üç telliye elimizi vuralı çok oldu Sizler şöminenize odun atın Bizler canımızı yakalı çok oldu Çok oldu sizden, biz ayrılalı Çok oldu bizler garip kalalı]]></summary></entry></feed>
