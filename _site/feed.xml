@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-02T17:12:34+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FatihargeGist</title><subtitle>A platform for sharing small yet impactful notes that inspire creativity.</subtitle><author><name>fatiharge</name></author><entry><title type="html">Flutter ile Basit Sayfalandırma Oluşturma</title><link href="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html" rel="alternate" type="text/html" title="Flutter ile Basit Sayfalandırma Oluşturma" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Flutter%20ile%20Basit%20Sayfaland%C4%B1rma%20Olu%C5%9Fturma</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html"><![CDATA[<h1 id="flutter-ile-basit-sayfalandırma-oluşturma">Flutter ile Basit Sayfalandırma Oluşturma</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-02T17:20:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FatihargeGist</title><subtitle>A platform for sharing small yet impactful notes that inspire creativity.</subtitle><author><name>fatiharge</name></author><entry><title type="html">Flutter ile Basit Sayfalandırma Oluşturma</title><link href="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html" rel="alternate" type="text/html" title="Flutter ile Basit Sayfalandırma Oluşturma" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Flutter%20ile%20Basit%20Sayfaland%C4%B1rma%20Olu%C5%9Fturma</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html"><![CDATA[<h1 id="flutter-ile-basit-sayfalandırma-oluşturma">Flutter ile Basit Sayfalandırma Oluşturma</h1>
 
 <h3 id="sayfalandırmanın-temelleri">Sayfalandırmanın Temelleri</h3>
 
@@ -20,10 +20,11 @@
 <span class="o">}</span>
 
 <span class="kd">class</span> <span class="nc">MyApp</span> <span class="kd">extends</span> <span class="n">StatelessWidget</span> <span class="o">{</span>
+  <span class="kd">final</span> <span class="n">title</span> <span class="o">=</span> <span class="s">'Flutter Pagination Example'</span><span class="o">;</span>
   <span class="nd">@override</span>
   <span class="n">Widget</span> <span class="n">build</span><span class="o">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="o">)</span> <span class="o">{</span>
     <span class="k">return</span> <span class="n">MaterialApp</span><span class="o">(</span>
-      <span class="nl">title:</span> <span class="s">'Flutter Pagination Example'</span><span class="o">,</span>
+      <span class="nl">title:</span> <span class="n">title</span><span class="o">,</span>
       <span class="nl">home:</span> <span class="n">PaginationExample</span><span class="o">(),</span>
     <span class="o">);</span>
   <span class="o">}</span>

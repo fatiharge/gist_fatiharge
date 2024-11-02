@@ -28,10 +28,11 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  final title = 'Flutter Pagination Example';
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Pagination Example',
+      title: title,
       home: PaginationExample(),
     );
   }

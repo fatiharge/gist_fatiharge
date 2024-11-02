@@ -83,10 +83,11 @@
 <span class="o">}</span>
 
 <span class="kd">class</span> <span class="nc">MyApp</span> <span class="kd">extends</span> <span class="n">StatelessWidget</span> <span class="o">{</span>
+  <span class="kd">final</span> <span class="n">title</span> <span class="o">=</span> <span class="s">'Flutter Pagination Example'</span><span class="o">;</span>
   <span class="nd">@override</span>
   <span class="n">Widget</span> <span class="n">build</span><span class="o">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="o">)</span> <span class="o">{</span>
     <span class="k">return</span> <span class="n">MaterialApp</span><span class="o">(</span>
-      <span class="nl">title:</span> <span class="s">'Flutter Pagination Example'</span><span class="o">,</span>
+      <span class="nl">title:</span> <span class="n">title</span><span class="o">,</span>
       <span class="nl">home:</span> <span class="n">PaginationExample</span><span class="o">(),</span>
     <span class="o">);</span>
   <span class="o">}</span>
