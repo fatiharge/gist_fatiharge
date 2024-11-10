@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-10T14:52:11+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FatihargeGist</title><subtitle>A platform for sharing small yet impactful notes that inspire creativity.</subtitle><author><name>fatiharge</name></author><entry><title type="html">Jekyll Yerel Sunucu Başlatma Adımları</title><link href="http://localhost:4000/jekyllrb/2024/11/10/Jekyll-Yerel-Sunucu-Ba%C5%9Flatma-Ad%C4%B1mlar%C4%B1.html" rel="alternate" type="text/html" title="Jekyll Yerel Sunucu Başlatma Adımları" /><published>2024-11-10T00:00:00+00:00</published><updated>2024-11-10T00:00:00+00:00</updated><id>http://localhost:4000/jekyllrb/2024/11/10/Jekyll%20Yerel%20Sunucu%20Ba%C5%9Flatma%20Ad%C4%B1mlar%C4%B1</id><content type="html" xml:base="http://localhost:4000/jekyllrb/2024/11/10/Jekyll-Yerel-Sunucu-Ba%C5%9Flatma-Ad%C4%B1mlar%C4%B1.html"><![CDATA[<h3 id="jekyll-yerel-sunucu-başlatma-adımları">Jekyll Yerel Sunucu Başlatma Adımları</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-10T14:55:46+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FatihargeGist</title><subtitle>A platform for sharing small yet impactful notes that inspire creativity.</subtitle><author><name>fatiharge</name></author><entry><title type="html">Linux Dosya Sahipliğini Değiştirme</title><link href="http://localhost:4000/linux/2024/11/10/Linux-Dosya-Sahipli%C4%9Fini-De%C4%9Fi%C5%9Ftirme.html" rel="alternate" type="text/html" title="Linux Dosya Sahipliğini Değiştirme" /><published>2024-11-10T00:00:00+00:00</published><updated>2024-11-10T00:00:00+00:00</updated><id>http://localhost:4000/linux/2024/11/10/Linux%20Dosya%20Sahipli%C4%9Fini%20De%C4%9Fi%C5%9Ftirme</id><content type="html" xml:base="http://localhost:4000/linux/2024/11/10/Linux-Dosya-Sahipli%C4%9Fini-De%C4%9Fi%C5%9Ftirme.html"><![CDATA[<h3 id="linux-chown-komutu-ile-dosya-sahipliğini-değiştirme">Linux <code class="language-plaintext highlighter-rouge">chown</code> Komutu ile Dosya Sahipliğini Değiştirme</h3>
+
+<ol>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">chown</code> Komutunun Temel Kullanımı</strong>:<br />
+<code class="language-plaintext highlighter-rouge">chown</code> komutu, bir dosyanın veya dizinin sahipliğini değiştirmek için kullanılır. Dosya veya dizin sahibini güncellemek için aşağıdaki gibi bir komut çalıştırabilirsiniz:</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown</span> <span class="o">[</span>yeni_sahip] dosya_adi
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Sahip ve Grup Belirleme</strong>:
+    <ul>
+      <li>Sadece dosya sahibini değiştirmek için:
+        <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown </span>kullanıcı_adi dosya_adi
+</code></pre></div>        </div>
+      </li>
+      <li>Hem dosya sahibi hem de grubunu değiştirmek için:
+        <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown </span>kullanıcı_adi:grup_adi dosya_adi
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Recursive (Tüm Alt Dizinler İçin) Kullanım</strong>:
+    <ul>
+      <li>Bir dizin ve alt dizinleri için sahiplik değiştirmek isterseniz <code class="language-plaintext highlighter-rouge">-R</code> parametresini ekleyebilirsiniz:
+        <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown</span> <span class="nt">-R</span> kullanıcı_adi:grup_adi dizin_adi
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Örnek Kullanım</strong>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">fatih</code> kullanıcısına ve <code class="language-plaintext highlighter-rouge">arge</code> grubuna bir dosyanın sahipliğini vermek için:
+        <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown </span>fatih:arge ornek_dosya.txt
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>fatiharge</name></author><category term="linux" /><summary type="html"><![CDATA[Linux chown Komutu ile Dosya Sahipliğini Değiştirme]]></summary></entry><entry><title type="html">Jekyll Yerel Sunucu Başlatma Adımları</title><link href="http://localhost:4000/jekyllrb/2024/11/10/Jekyll-Yerel-Sunucu-Ba%C5%9Flatma-Ad%C4%B1mlar%C4%B1.html" rel="alternate" type="text/html" title="Jekyll Yerel Sunucu Başlatma Adımları" /><published>2024-11-10T00:00:00+00:00</published><updated>2024-11-10T00:00:00+00:00</updated><id>http://localhost:4000/jekyllrb/2024/11/10/Jekyll%20Yerel%20Sunucu%20Ba%C5%9Flatma%20Ad%C4%B1mlar%C4%B1</id><content type="html" xml:base="http://localhost:4000/jekyllrb/2024/11/10/Jekyll-Yerel-Sunucu-Ba%C5%9Flatma-Ad%C4%B1mlar%C4%B1.html"><![CDATA[<h3 id="jekyll-yerel-sunucu-başlatma-adımları">Jekyll Yerel Sunucu Başlatma Adımları</h3>
 
 <ol>
   <li><strong>Projeyi Build Etmek</strong>:
@@ -16,49 +54,7 @@
       <li>Kodda yapılan güncellemeler kaydedildikçe Jekyll, siteyi otomatik olarak yeniden derleyip güncellemeleri sunacaktır.</li>
     </ul>
   </li>
-</ol>]]></content><author><name>fatiharge</name></author><category term="jekyllrb" /><summary type="html"><![CDATA[Jekyll Yerel Sunucu Başlatma Adımları]]></summary></entry><entry><title type="html">Fold Metodu</title><link href="http://localhost:4000/flutter/2024/11/02/Fold-Metodu.html" rel="alternate" type="text/html" title="Fold Metodu" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Fold%20Metodu</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Fold-Metodu.html"><![CDATA[<h3 id="fold-metodu-nedir"><code class="language-plaintext highlighter-rouge">fold</code> Metodu Nedir?</h3>
-<ul>
-  <li><strong>Açıklama</strong>: Bir koleksiyondaki elemanları birleştirerek tek bir değer döndürür. Başlangıç değeri ile çalışır.</li>
-</ul>
-
-<h3 id="temel-kullanım">Temel Kullanım</h3>
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">total</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">fold</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="o">(</span><span class="n">prev</span><span class="o">,</span> <span class="n">element</span><span class="o">)</span> <span class="o">{</span>
-  <span class="k">return</span> <span class="n">prev</span> <span class="o">+</span> <span class="n">element</span><span class="o">;</span>
-<span class="o">});</span>
-</code></pre></div></div>
-
-<h4 id="a-string-birleştirme">a. String Birleştirme</h4>
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">combined</span> <span class="o">=</span> <span class="n">aListOfStrings</span><span class="o">.</span><span class="na">fold</span><span class="o">(</span><span class="s">''</span><span class="o">,</span> <span class="o">(</span><span class="n">prev</span><span class="o">,</span> <span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">prev</span> <span class="o">+</span> <span class="n">element</span><span class="o">);</span>
-</code></pre></div></div>
-
-<h4 id="b-en-büyük-değeri-bulma">b. En Büyük Değeri Bulma</h4>
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">max</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">fold</span><span class="o">(</span><span class="n">aListOfNumbers</span><span class="o">[</span><span class="mi">0</span><span class="o">],</span> <span class="o">(</span><span class="n">prev</span><span class="o">,</span> <span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span> <span class="o">&gt;</span> <span class="n">prev</span> <span class="o">?</span> <span class="n">element</span> <span class="o">:</span> <span class="n">prev</span><span class="o">);</span>
-</code></pre></div></div>
-
-<h4 id="c-koşullu-toplama">c. Koşullu Toplama</h4>
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">conditionalTotal</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">fold</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="o">(</span><span class="n">prev</span><span class="o">,</span> <span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">?</span> <span class="n">prev</span> <span class="o">+</span> <span class="n">element</span> <span class="o">:</span> <span class="n">prev</span><span class="o">);</span>
-</code></pre></div></div>]]></content><author><name>fatiharge</name></author><category term="flutter" /><summary type="html"><![CDATA[fold Metodu Nedir? Açıklama: Bir koleksiyondaki elemanları birleştirerek tek bir değer döndürür. Başlangıç değeri ile çalışır.]]></summary></entry><entry><title type="html">Map Metodu</title><link href="http://localhost:4000/flutter/2024/11/02/Map-Metodu.html" rel="alternate" type="text/html" title="Map Metodu" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Map%20Metodu</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Map-Metodu.html"><![CDATA[<h3 id="map-metodu-nedir"><code class="language-plaintext highlighter-rouge">map</code> Metodu Nedir?</h3>
-<ul>
-  <li><strong>Açıklama</strong>: Bir koleksiyondaki her bir elemanı alarak, belirli bir dönüşüm işlemi uygular ve yeni bir koleksiyon döndürür.</li>
-</ul>
-
-<h3 id="temel-kullanım">Temel Kullanım</h3>
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">squaredList</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">map</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">{</span>
-  <span class="k">return</span> <span class="n">element</span> <span class="o">*</span> <span class="n">element</span><span class="o">;</span>
-<span class="o">}).</span><span class="na">toList</span><span class="o">();</span>
-</code></pre></div></div>
-
-<h4 id="a-stringe-dönüştürme">a. String’e Dönüştürme</h4>
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">stringList</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">map</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span><span class="o">.</span><span class="na">toString</span><span class="o">()).</span><span class="na">toList</span><span class="o">();</span>
-</code></pre></div></div>
-
-<h4 id="b-i̇lk-harfi-büyük-yapma">b. İlk Harfi Büyük Yapma</h4>
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">capitalizedList</span> <span class="o">=</span> <span class="n">aListOfStrings</span><span class="o">.</span><span class="na">map</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">toUpperCase</span><span class="o">()</span> <span class="o">+</span> <span class="n">element</span><span class="o">.</span><span class="na">substring</span><span class="o">(</span><span class="mi">1</span><span class="o">)).</span><span class="na">toList</span><span class="o">();</span>
-</code></pre></div></div>
-
-<h4 id="c-koşullu-dönüşüm">c. Koşullu Dönüşüm</h4>
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">filteredDoubles</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">map</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span> <span class="o">*</span> <span class="mi">2</span><span class="o">).</span><span class="na">where</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="o">).</span><span class="na">toList</span><span class="o">();</span>
-</code></pre></div></div>]]></content><author><name>fatiharge</name></author><category term="flutter" /><summary type="html"><![CDATA[map Metodu Nedir? Açıklama: Bir koleksiyondaki her bir elemanı alarak, belirli bir dönüşüm işlemi uygular ve yeni bir koleksiyon döndürür.]]></summary></entry><entry><title type="html">AİŞE</title><link href="http://localhost:4000/siirler/2024/11/02/AISE.html" rel="alternate" type="text/html" title="AİŞE" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/siirler/2024/11/02/AISE</id><content type="html" xml:base="http://localhost:4000/siirler/2024/11/02/AISE.html"><![CDATA[<p>Kendimi sana layık görmediğim için, <br />
+</ol>]]></content><author><name>fatiharge</name></author><category term="jekyllrb" /><summary type="html"><![CDATA[Jekyll Yerel Sunucu Başlatma Adımları]]></summary></entry><entry><title type="html">AİŞE</title><link href="http://localhost:4000/siirler/2024/11/02/AISE.html" rel="alternate" type="text/html" title="AİŞE" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/siirler/2024/11/02/AISE</id><content type="html" xml:base="http://localhost:4000/siirler/2024/11/02/AISE.html"><![CDATA[<p>Kendimi sana layık görmediğim için, <br />
 Başkalarını da sana layık göremiyorum. <br />
 Anlamıyorsun Aişe. <br />
 Seni sevmiyor değilim. <br />
@@ -129,7 +125,49 @@ Sessizlik, tüm caddelerde<br />
 Ve ben yalnızlık denen yerde<br />
 Yeraltında, işte tam bu anda…<br /><br /></p>
 
-<p>2022</p>]]></content><author><name>Halil Ibrahim Bayla</name></author><category term="siirler" /><summary type="html"><![CDATA[İnsan bu, iki ayaklı nankör Kış soğuk, kulağımda sesi Ay karanlık, gözümde rengi Sessizlik, tüm caddelerde Ve ben yalnızlık denen yerde Yeraltında, işte tam bu anda…]]></summary></entry><entry><title type="html">Flutter ile Basit Sayfalandırma Oluşturma</title><link href="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html" rel="alternate" type="text/html" title="Flutter ile Basit Sayfalandırma Oluşturma" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Flutter%20ile%20Basit%20Sayfaland%C4%B1rma%20Olu%C5%9Fturma</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html"><![CDATA[<h1 id="flutter-ile-basit-sayfalandırma-oluşturma">Flutter ile Basit Sayfalandırma Oluşturma</h1>
+<p>2022</p>]]></content><author><name>Halil Ibrahim Bayla</name></author><category term="siirler" /><summary type="html"><![CDATA[İnsan bu, iki ayaklı nankör Kış soğuk, kulağımda sesi Ay karanlık, gözümde rengi Sessizlik, tüm caddelerde Ve ben yalnızlık denen yerde Yeraltında, işte tam bu anda…]]></summary></entry><entry><title type="html">Fold Metodu</title><link href="http://localhost:4000/flutter/2024/11/02/Fold-Metodu.html" rel="alternate" type="text/html" title="Fold Metodu" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Fold%20Metodu</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Fold-Metodu.html"><![CDATA[<h3 id="fold-metodu-nedir"><code class="language-plaintext highlighter-rouge">fold</code> Metodu Nedir?</h3>
+<ul>
+  <li><strong>Açıklama</strong>: Bir koleksiyondaki elemanları birleştirerek tek bir değer döndürür. Başlangıç değeri ile çalışır.</li>
+</ul>
+
+<h3 id="temel-kullanım">Temel Kullanım</h3>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">total</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">fold</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="o">(</span><span class="n">prev</span><span class="o">,</span> <span class="n">element</span><span class="o">)</span> <span class="o">{</span>
+  <span class="k">return</span> <span class="n">prev</span> <span class="o">+</span> <span class="n">element</span><span class="o">;</span>
+<span class="o">});</span>
+</code></pre></div></div>
+
+<h4 id="a-string-birleştirme">a. String Birleştirme</h4>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">combined</span> <span class="o">=</span> <span class="n">aListOfStrings</span><span class="o">.</span><span class="na">fold</span><span class="o">(</span><span class="s">''</span><span class="o">,</span> <span class="o">(</span><span class="n">prev</span><span class="o">,</span> <span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">prev</span> <span class="o">+</span> <span class="n">element</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h4 id="b-en-büyük-değeri-bulma">b. En Büyük Değeri Bulma</h4>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">max</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">fold</span><span class="o">(</span><span class="n">aListOfNumbers</span><span class="o">[</span><span class="mi">0</span><span class="o">],</span> <span class="o">(</span><span class="n">prev</span><span class="o">,</span> <span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span> <span class="o">&gt;</span> <span class="n">prev</span> <span class="o">?</span> <span class="n">element</span> <span class="o">:</span> <span class="n">prev</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h4 id="c-koşullu-toplama">c. Koşullu Toplama</h4>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">conditionalTotal</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">fold</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="o">(</span><span class="n">prev</span><span class="o">,</span> <span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">?</span> <span class="n">prev</span> <span class="o">+</span> <span class="n">element</span> <span class="o">:</span> <span class="n">prev</span><span class="o">);</span>
+</code></pre></div></div>]]></content><author><name>fatiharge</name></author><category term="flutter" /><summary type="html"><![CDATA[fold Metodu Nedir? Açıklama: Bir koleksiyondaki elemanları birleştirerek tek bir değer döndürür. Başlangıç değeri ile çalışır.]]></summary></entry><entry><title type="html">Map Metodu</title><link href="http://localhost:4000/flutter/2024/11/02/Map-Metodu.html" rel="alternate" type="text/html" title="Map Metodu" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Map%20Metodu</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Map-Metodu.html"><![CDATA[<h3 id="map-metodu-nedir"><code class="language-plaintext highlighter-rouge">map</code> Metodu Nedir?</h3>
+<ul>
+  <li><strong>Açıklama</strong>: Bir koleksiyondaki her bir elemanı alarak, belirli bir dönüşüm işlemi uygular ve yeni bir koleksiyon döndürür.</li>
+</ul>
+
+<h3 id="temel-kullanım">Temel Kullanım</h3>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">squaredList</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">map</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">{</span>
+  <span class="k">return</span> <span class="n">element</span> <span class="o">*</span> <span class="n">element</span><span class="o">;</span>
+<span class="o">}).</span><span class="na">toList</span><span class="o">();</span>
+</code></pre></div></div>
+
+<h4 id="a-stringe-dönüştürme">a. String’e Dönüştürme</h4>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">stringList</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">map</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span><span class="o">.</span><span class="na">toString</span><span class="o">()).</span><span class="na">toList</span><span class="o">();</span>
+</code></pre></div></div>
+
+<h4 id="b-i̇lk-harfi-büyük-yapma">b. İlk Harfi Büyük Yapma</h4>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">capitalizedList</span> <span class="o">=</span> <span class="n">aListOfStrings</span><span class="o">.</span><span class="na">map</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">toUpperCase</span><span class="o">()</span> <span class="o">+</span> <span class="n">element</span><span class="o">.</span><span class="na">substring</span><span class="o">(</span><span class="mi">1</span><span class="o">)).</span><span class="na">toList</span><span class="o">();</span>
+</code></pre></div></div>
+
+<h4 id="c-koşullu-dönüşüm">c. Koşullu Dönüşüm</h4>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="n">filteredDoubles</span> <span class="o">=</span> <span class="n">aListOfNumbers</span><span class="o">.</span><span class="na">map</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span> <span class="o">*</span> <span class="mi">2</span><span class="o">).</span><span class="na">where</span><span class="o">((</span><span class="n">element</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">element</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="o">).</span><span class="na">toList</span><span class="o">();</span>
+</code></pre></div></div>]]></content><author><name>fatiharge</name></author><category term="flutter" /><summary type="html"><![CDATA[map Metodu Nedir? Açıklama: Bir koleksiyondaki her bir elemanı alarak, belirli bir dönüşüm işlemi uygular ve yeni bir koleksiyon döndürür.]]></summary></entry><entry><title type="html">Flutter ile Basit Sayfalandırma Oluşturma</title><link href="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html" rel="alternate" type="text/html" title="Flutter ile Basit Sayfalandırma Oluşturma" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/flutter/2024/11/02/Flutter%20ile%20Basit%20Sayfaland%C4%B1rma%20Olu%C5%9Fturma</id><content type="html" xml:base="http://localhost:4000/flutter/2024/11/02/Flutter-ile-Basit-Sayfaland%C4%B1rma-Olu%C5%9Fturma.html"><![CDATA[<h1 id="flutter-ile-basit-sayfalandırma-oluşturma">Flutter ile Basit Sayfalandırma Oluşturma</h1>
 
 <h3 id="sayfalandırmanın-temelleri">Sayfalandırmanın Temelleri</h3>
 

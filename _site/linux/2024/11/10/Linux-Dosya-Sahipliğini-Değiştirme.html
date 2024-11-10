@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Linux Dosya Sahipliğini Değiştirme | FatihargeGist</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Linux Dosya Sahipliğini Değiştirme" />
+<meta name="author" content="fatiharge" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Linux chown Komutu ile Dosya Sahipliğini Değiştirme" />
+<meta property="og:description" content="Linux chown Komutu ile Dosya Sahipliğini Değiştirme" />
+<link rel="canonical" href="http://localhost:4000/linux/2024/11/10/Linux-Dosya-Sahipli%C4%9Fini-De%C4%9Fi%C5%9Ftirme.html" />
+<meta property="og:url" content="http://localhost:4000/linux/2024/11/10/Linux-Dosya-Sahipli%C4%9Fini-De%C4%9Fi%C5%9Ftirme.html" />
+<meta property="og:site_name" content="FatihargeGist" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-11-10T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Linux Dosya Sahipliğini Değiştirme" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"fatiharge"},"dateModified":"2024-11-10T00:00:00+00:00","datePublished":"2024-11-10T00:00:00+00:00","description":"Linux chown Komutu ile Dosya Sahipliğini Değiştirme","headline":"Linux Dosya Sahipliğini Değiştirme","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/linux/2024/11/10/Linux-Dosya-Sahipli%C4%9Fini-De%C4%9Fi%C5%9Ftirme.html"},"url":"http://localhost:4000/linux/2024/11/10/Linux-Dosya-Sahipli%C4%9Fini-De%C4%9Fi%C5%9Ftirme.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<meta name="keywords" content="" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/prism.css" />
+<script src="/assets/js/prism.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="wrapper-header">
+            <div class="header">
+    <h1>Fatiharge Cheat Sheet:</h1>
+    <br>
+    <h5><i>Practical Examples</i></h5>
+    <br>
+    <nav>
+    
+    <a href="/posts/">Konular</a>
+    
+    <a href="/categories/">Kategoriler</a>
+    
+</nav>
+    <hr>
+</div>
+        </header>
+
+        <main class="wrapper-main">
+            <div class="main-content">
+            <div class="post-info">
+    <h2>Linux Dosya Sahipliğini Değiştirme</h2>
+    <p>10 Nov 2024 - fatiharge</p>
+</div>
+
+<div class="post-content">
+<h3 id="linux-chown-komutu-ile-dosya-sahipliğini-değiştirme">Linux <code class="language-plaintext highlighter-rouge">chown</code> Komutu ile Dosya Sahipliğini Değiştirme</h3>
+
+<ol>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">chown</code> Komutunun Temel Kullanımı</strong>:<br />
+<code class="language-plaintext highlighter-rouge">chown</code> komutu, bir dosyanın veya dizinin sahipliğini değiştirmek için kullanılır. Dosya veya dizin sahibini güncellemek için aşağıdaki gibi bir komut çalıştırabilirsiniz:</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown</span> <span class="o">[</span>yeni_sahip] dosya_adi
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Sahip ve Grup Belirleme</strong>:
+    <ul>
+      <li>Sadece dosya sahibini değiştirmek için:
+        <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown </span>kullanıcı_adi dosya_adi
+</code></pre></div>        </div>
+      </li>
+      <li>Hem dosya sahibi hem de grubunu değiştirmek için:
+        <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown </span>kullanıcı_adi:grup_adi dosya_adi
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Recursive (Tüm Alt Dizinler İçin) Kullanım</strong>:
+    <ul>
+      <li>Bir dizin ve alt dizinleri için sahiplik değiştirmek isterseniz <code class="language-plaintext highlighter-rouge">-R</code> parametresini ekleyebilirsiniz:
+        <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown</span> <span class="nt">-R</span> kullanıcı_adi:grup_adi dizin_adi
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Örnek Kullanım</strong>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">fatih</code> kullanıcısına ve <code class="language-plaintext highlighter-rouge">arge</code> grubuna bir dosyanın sahipliğini vermek için:
+        <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chown </span>fatih:arge ornek_dosya.txt
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+</div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="wrapper-footer">
+        <div class="footer">
+    <span class="footer-text float-left">This work is licensed under <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPLv3</a></span>
+    <span class="footer-text float-right">
+    Site Updated: 2024-11-10 TRT (<a href="/feed.xml" target="_blank">RSS</a>)
+  </span>
+</div>
+    </footer>
+</body>
+</html>
